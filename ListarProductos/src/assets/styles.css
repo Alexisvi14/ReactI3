@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.item {
+    margin: 0.62rem 0;
+    font-size: 1rem;
+    padding-left: 0.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.product-item>a {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item>a:visited {
+    color: #444;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.container-btn {
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.container-product {
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.container-listProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item {
+    width: 300px;
+    height: 300px;
+}
