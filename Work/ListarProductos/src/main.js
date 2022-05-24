@@ -1,4 +1,4 @@
-const showBtn = document.querySelector(".btn-showList")
+const showBtn = document.querySelector(".btn-showlist")
 const prodCont = document.querySelector(".container-product")
 const URLApi = "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json"
 
